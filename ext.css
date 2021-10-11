@@ -10,13 +10,30 @@
   margin-left: 90px ;
 margin-top: 15px;
 margin-bottom:15px;
-margin-right:90px;
+margin-right:90px; 
+border: 1px aquamarine dotted ;
+padding: 10px;
 }
 .hello{
+  
   
 font-weight: 600;
 font-style: italic;
 text-decoration: line-through red;
 text-decoration-style: double;
 margin: 15px 90px 15px 90px;
+border:aquamarine solid;
+border-width: 4px;
+border-radius: 16px;
+padding-left: 15px;
+padding-right: 15px;
+padding-top: 5px;
+padding-bottom: 5px;
+background-image:-moz-radial-gradient();
 }
+#abc{
+  border: 1px solid blue;
+  
+width: 50%;
+  background-image: linear-gradient(
+ maroon,green);
