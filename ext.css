@@ -1,14 +1,22 @@
 .sure {
   color: !important;
   font-family: serif;
-}
-body {
-  background-color: blue;
-  font-family: fantasy;
+
+  
+  
 }
 #hey{
   background-color: gray;
+  margin-left: 90px ;
+margin-top: 15px;
+margin-bottom:15px;
+margin-right:90px;
 }
 .hello{
-  background-color: gray;
+  
+font-weight: 600;
+font-style: italic;
+text-decoration: line-through red;
+text-decoration-style: double;
+margin: 15px 90px 15px 90px;
 }
