@@ -4,33 +4,31 @@
     <title>A Form</title>
     <link rel="stylesheet" href="external.css" />
     <link rel="stylesheet" href="ext.css" />
+    <style>
+      body {
+        font-family: serif;
+      }
+    </style>
   </head>
 
   <body>
-    <form>
-      <fieldset style="color: aqua">
-        <legend>login</legend>
-        <label>USERNAME</label>
-        <input type="text" value="username" style="color: grey" /><br />
-        <label>PASSWORD</label>
-        <input
-          style="color: grey"
-          type="text"
-          value="enter your password"
-        /><br />
-        <label>confirm</label>
-        <input type="checkbox" style="color: green" value="confirm" /><br />
-        <input type="button" value="submit" />
-      </fieldset>
-    </form>
-    <label style="color: blue"> what is your name </label>
-    <div style="background-color: bisque">this is div 1</div>
-    <div style="background-color: bisque">this is div 2</div>
-    <p style="background-color: bisque">this is p tag</p>
-    <span style="background-color: bisque">this is span 1</span>
-    <span style="background-color: bisque">this is span 2</span>
-    <textarea style="background-color: bisque">
-      text
-    </textarea>
+    <fieldset>
+      <legend>login</legend>
+      <label class="sure">USERNAME</label>
+      <input type="text" /><br />
+      <label>PASSWORD</label>
+      <input type="text" /><br />
+      <label>confirm</label>
+      <input type="checkbox" style="color: green" value="confirm" /><br />
+      <form action="https://www.facebook.com/">
+        <input type="submit" value="Go to facebook" />
+      </form>
+      <div id="hey">
+        what is your name
+      </div>
+      <span class="hello">
+        what is your age
+      </span>
+    </fieldset>
   </body>
 </html>
